@@ -1,7 +1,7 @@
 
 public class Skill {
 	
-	public String name;
+	public String name; // skill name must be unique (used as key in HashMap)
 	public String description;
 	public int level; // skill level from 1-10
 	
